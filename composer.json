@@ -1,0 +1,19 @@
+{
+    "name": "knight/ucloud",
+    "description": "upload photo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tao jiang",
+            "email": "jiangtao6888@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Knight\\Knight": "src/"
+        }
+    }
+}
