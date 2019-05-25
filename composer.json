@@ -3,13 +3,14 @@
     "description": "upload photo",
     "type": "library",
     "license": "MIT",
+    "version":"0.1.0",
     "authors": [
         {
             "name": "tao jiang",
             "email": "jiangtao6888@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "require": {},
     "autoload": {
         "psr-4": {

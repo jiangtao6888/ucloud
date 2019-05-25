@@ -9,6 +9,6 @@ global $UCLOUD_PRIVATE_KEY;
 
 $SDK_VER = "1.0.8";
 
-$UCLOUD_PROXY_SUFFIX = env('UCLOUD_PROXY_SUFFIX', '');      //如果是其他地域的，请参考上面的说明
-$UCLOUD_PUBLIC_KEY = env('UCLOUD_PUBLIC_KEY', '');
-$UCLOUD_PRIVATE_KEY = env('UCLOUD_PRIVATE_KEY', '');
+$UCLOUD_PROXY_SUFFIX = config('filesystems.disks.ucloud.suffix');      //如果是其他地域的，请参考上面的说明
+$UCLOUD_PUBLIC_KEY = config('filesystems.disks.ucloud.public_key');
+$UCLOUD_PRIVATE_KEY = config('filesystems.disks.ucloud.private_key');
